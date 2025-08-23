@@ -11,10 +11,10 @@ Published at *5th Mediterranean Conference on Pattern Recognition and Artificial
 We propose a deep learning-based approach for detecting Islamophobic hate speech in tweets.  
 The method combines **1D Convolutional Neural Networks (CNN)** for feature extraction and **Bi-directional LSTM** for classification.
 
-- Dataset: ~1290 labeled tweets (positive = Islamophobic, negative = non-Islamophobic)  
+- Dataset: labeled tweets (positive = Islamophobic, negative = non-Islamophobic)  
 - Preprocessing: Case folding, tokenization, stop-word removal, stemming  
 - Embeddings: Word2Vec (300-dim)  
-- Model: 7 Conv1D layers + 2 BiLSTM layers + Dense classifier  
+- Model: 7x Conv1D layers + 2x BiLSTM layers + Dense classifier  
 - Achieved Accuracy: **90.13%**
 ---
 
